@@ -14,6 +14,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="shopstyles.css" />
   </head>
 
   <body>
@@ -21,8 +22,8 @@
       <div class="logo"><a href="#">AK</a></div>
       <nav>
         <ul id="navbar">
-          <li><a class="active" href="">Home</a></li>
-          <li><a href="shop.html">Shop</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
           <li><a href="">Blog</a></li>
           <li><a href="">About</a></li>
           <li><a href="">Contact</a></li>
@@ -37,51 +38,19 @@
       </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero-shopbanner">
       <div class="hero_text">
-        <h4>Trade-in-Offer</h4>
-        <h2>Super Value deals</h2>
-        <h1>On All Products</h1>
+        <h2>#Stay home</h2>
         <p>Save more with coupons & up to 70% off!</p>
-        <button>Shop Now</button>
-      </div>
-    </section>
-
-    <section class="feature feature_grid section_p1">
-      <div class="grid_card">
-        <img src="f1.png" alt="feature-1 img" />
-        <h6>Free Shipping</h6>
-      </div>
-      <div class="grid_card">
-        <img src="f2.png" alt="feature-1 img" />
-        <h6>Fast Delivary</h6>
-      </div>
-      <div class="grid_card">
-        <img src="f3.png" alt="feature-1 img" />
-        <h6>Save Money</h6>
-      </div>
-      <div class="grid_card">
-        <img src="f4.png" alt="feature-1 img" />
-        <h6>Promotions</h6>
-      </div>
-      <div class="grid_card">
-        <img src="f5.png" alt="feature-1 img" />
-        <h6>Happy Customers</h6>
-      </div>
-      <div class="grid_card">
-        <img src="f6.png" alt="feature-1 img" />
-        <h6>24/7 Support</h6>
       </div>
     </section>
 
     <section class="featured_products section_p1">
-      <div class="title">
-        <h1>Featured Products</h1>
-        <p>Summer Collection New Modren Design</p>
-      </div>
-
       <div class="products">
-        <div class="products_container">
+        <div
+          class="products_container"
+          onclick="window.location.href='./singleproduct.html'"
+        >
           <img src="products f (1).jpg" alt="products-1" />
           <div class="description">
             <h6>AK</h6>
@@ -232,22 +201,7 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section class="banner section_p1">
-      <h4>Repair Services</h4>
-      <h2>Up to <span>70% off</span> - All Shirts & Accessories</h2>
-      <button class="global_btn">Explore More</button>
-    </section>
-
-    <section class="featured_products section_p1">
-      <div class="title">
-        <h1>Featured Products</h1>
-        <p>Summer Collection New Modren Design</p>
-      </div>
-
-      <div class="products">
         <div class="products_container">
           <img src="products n (1).jpg" alt="products-1" />
           <div class="description">
@@ -364,34 +318,10 @@
       </div>
     </section>
 
-    <section class="deals section_p1">
-      <div class="banner_box">
-        <h4>Craxy Deals</h4>
-        <h2>buy 1 get 1 free</h2>
-        <p>The best classic dress</p>
-        <button class="trans_btn">Learn More</button>
-      </div>
-      <div class="banner_box banner_box2">
-        <h4>Spring/Summer</h4>
-        <h2>Upcomming season</h2>
-        <p>The best classic dress is on cara</p>
-        <button class="trans_btn">Collection</button>
-      </div>
-    </section>
-
-    <section class="sales">
-      <div class="bannerbox bannerbox1">
-        <h2>SEASONAL SALE</h2>
-        <p>Winter Collection - 50% Off</p>
-      </div>
-      <div class="bannerbox bannerbox2">
-        <h2>NEW FOOTWEAR COLLECTION</h2>
-        <p>Spring / Summer 2022</p>
-      </div>
-      <div class="bannerbox bannerbox3">
-        <h2>T - SHIRTS</h2>
-        <p>New and Trendy</p>
-      </div>
+    <section class="pagination section_p1">
+      <a href="">1</a>
+      <a href="">2</a>
+      <a href=""><i class="fa-solid fa-arrow-right-long"></i></a>
     </section>
 
     <section class="newsletter section_p1">
