@@ -40,6 +40,10 @@ p {
   margin: 2.5rem 0;
 }
 
+.hero_text h2,
+.hero_text p {
+  color: #fff;
+}
 /* Header */
 .header {
   padding: 1.25rem 5rem;

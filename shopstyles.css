@@ -11,10 +11,7 @@
   justify-content: center;
   text-align: center;
 }
-.hero-shopbanner .hero_text h2,
-.hero-shopbanner .hero_text p {
-  color: #fff;
-}
+
 .pagination {
   display: flex;
   align-items: center;
